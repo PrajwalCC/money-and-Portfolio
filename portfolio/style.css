@@ -1,0 +1,90 @@
+h1{
+   text-align: center;
+   font-size: 50px;
+}
+body{
+    /* background-image: url('hill.jpg') ;
+    background-repeat: no-repeat; 
+    background-position: right top;
+    background-size:cover;  */
+    /* OR */
+    background:rgb(205, 247, 247) url('hill.jpg') no-repeat right top fixed;
+}
+.button{
+    background-color: rgba(255, 238, 0, 0.664);
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: rgb(189, 216, 163);
+    font-weight:700;
+    margin-top:20px ;
+}
+aside{
+    letter-spacing: 5px;
+     text-decoration: line-through ;
+    text-transform:capitalize ;
+}
+
+.linkedin{
+    word-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 1.5px 1.5px rgb(91, 91, 224) ;
+    font-family: sans-serif;
+}
+
+.links p{
+    font-size: 20px;
+}
+.links{
+    position: absolute;
+    top: 500px;
+    right:700px;
+    border-color: rgba(15, 14, 14, 0.137);
+    border-style: solid;
+    text-align: center;
+    font-size: 20px;
+}
+
+.links:hover{
+     background-color: aqua;
+}
+.links>p:hover{
+    background-color: rgb(140, 98, 255);
+}
+.links>a:hover{
+    color: red;
+    background-color: rgb(245, 243, 109);
+    font-size: 26px;
+}
+
+.flex{
+    margin-top:10px;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: flex-end; */
+    height:100px;
+    align-items:center;
+    /* align-items:flex-end; */
+}
+
+.flex > div{
+    background-color: yellow;
+    height:40px;
+    width:80px;
+    margin:5px;
+    text-align: center;
+    padding-top: 25px;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+}
+pre{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1{
+    margin-bottom: 0px;
+}

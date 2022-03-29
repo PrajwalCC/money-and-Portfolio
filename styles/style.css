@@ -1,0 +1,73 @@
+div{
+    color:crimson;
+}
+
+li{
+    font-size:25px;
+    
+}
+
+.liColour{
+    color:blueviolet;
+    font-size:15px;
+}
+
+h1{
+    font-size:50px;
+    font-style: oblique;
+    font-display:inherit;
+
+}
+
+.goldDigger span{
+    color:greenyellow; 
+    background-color:black;
+    margin-left: 580px; 
+    font-size: 30px
+}
+
+.imagee{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+   max-height: 300px;
+   max-width: 300px;
+}
+
+#boxID{
+    width:100px;
+    height:50px;
+    background:yellow;
+    color:black;
+}
+
+.boxCLASS{
+    width:100px;
+    height:50px;
+    background:yellow;
+    color:black;
+    color:yellow;
+    background:black;
+    /* outer margin of container */
+    margin: 10px;
+    /* inner margin of container increases  */
+    padding:20px;
+    /* gives border */
+    border: 4px solid orange;
+    /*deciding position of boxCLASS*/
+    position:absolute;
+    top:178px;
+    right:50px;
+    /* vw-> view wide ..act like reponsive text */
+    font-size: 1.3vw;
+}
+
+/* isse oneLine wala div contain mai jo hai woh sara ek hi line mai aa jayega */
+.oneLine{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background-color: rgb(167, 161, 161);
+}

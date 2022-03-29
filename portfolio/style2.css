@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(230, 213, 247);
+}
+p{
+    color: rgb(252, 4, 4);
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+
+}
+label{
+    color: rgb(11, 7, 248);
+}
+input{
+    margin-top: 20px;
+}
+.num{
+    margin-bottom: 20px;
+}
+button{
+    height: 25px;
+    border-radius: 20px;
+    background-color: rgb(19, 226, 216);
+    margin-top: 20px;
+}
